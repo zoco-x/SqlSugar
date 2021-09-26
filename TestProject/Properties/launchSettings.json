@@ -3,23 +3,22 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:16512",
+      "applicationUrl": "http://localhost:49477",
       "sslPort": 0
     }
   },
   "profiles": {
-    "SqlSugar": {
-      "commandName": "Project",
-      "dotnetRunMessages": true,
+    "IIS Express": {
+      "commandName": "IISExpress",
       "launchBrowser": true,
-      "applicationUrl": "http://localhost:5000",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "IIS Express": {
-      "commandName": "IISExpress",
+    "TestProject": {
+      "commandName": "Project",
       "launchBrowser": true,
+      "applicationUrl": "http://localhost:5000",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
